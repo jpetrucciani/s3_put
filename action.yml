@@ -1,0 +1,9 @@
+name: "s3_put"
+description: "put artifacts into s3 from a github action"
+author: jpetrucciani
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
